@@ -45,15 +45,11 @@ export default function Footer() {
 </ol>
 
       </div>
-  
-
 
     <div class="footer-3">
   </div>
 
  <div class="text-align">© 2023 Standard Escrow Safe. All rights reserved </div>
-
-
    </div> 
    
    )

@@ -227,10 +227,6 @@ We operate at an extremely high
 </div>
 </div>
 
-
-
-
-
 </div>
       </header>
       <Footer />
