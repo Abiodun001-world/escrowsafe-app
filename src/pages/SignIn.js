@@ -19,10 +19,10 @@ export default function SignIn() {
        <input className="rounded-lg" 
        type="password" name="password" placeholder="Password" />
        <a className="text" 
-       href="https://standardescrowsafe.com/forgot-password">Forgot password</a>
+       href="./">Forgot password</a>
        <button className="bg-blue">Sign In</button>
        <p className="text-center">Don't Have an account? <a class="text-blue" 
-      href="https://standardescrowsafe.com/register"> Sign up</a></p>
+      href="./"> Sign up</a></p>
       </form>
       </div>
       
