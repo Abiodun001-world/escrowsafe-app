@@ -4,10 +4,10 @@ export default function Footer() {
 <div className="footer">
   <div className="combine">
      <h3>
-      <img class="Logo" src="/images/assets/logo.svg" alt="Logo" />   
+      <img className="Logo" src="/images/assets/logo.svg" alt="Logo" />   
       </h3>
     <ol className="order-list">
-      <div class="footer-1">
+      <div className="footer-1">
       <li>Explore</li>
       <br />
       <li>Blog</li> 
@@ -16,7 +16,7 @@ export default function Footer() {
       <br />
   <li>Terms and Conditions</li> 
      </div>
-    <div class="footer-list">
+    <div className="footer-list">
     <li>Links</li>
       <br />
     <li>Privacy policy</li>
@@ -34,8 +34,8 @@ export default function Footer() {
     <img className="instagram-logo" src="/images/assets/Instagram.svg" alt="instagram-logo" />  
     <img className="twitter-logo" src="/images/assets/Twitter.svg" alt="twitter-logo" />   
     <br />
-<div class="form-section">
-   <div class="subscribe-section">Subscribe to our newsletter</div> 
+<div className="form-section">
+   <div className="subscribe-section">Subscribe to our newsletter</div> 
     <form action="" name="Subscribeform" id="subscribeform">
       <input type="email" name="email" id="email" placeholder="Enter your email " required />
       <input type="submit" value="Subscribe"  required/>
@@ -46,10 +46,10 @@ export default function Footer() {
 
       </div>
 
-    <div class="footer-3">
+    <div className="footer-3">
   </div>
 
- <div class="text-align">© 2023 Standard Escrow Safe. All rights reserved </div>
+ <div className="text-align">© 2023 Standard Escrow Safe. All rights reserved </div>
    </div> 
    
    )

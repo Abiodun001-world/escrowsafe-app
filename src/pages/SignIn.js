@@ -3,9 +3,7 @@ import './signin.css';
 export default function SignIn() {
     return (
         <div className="password">
-
         <h4>
-              <img className="Logo" src="/images/assets/logo_blue.svg" alt="Logo" />   
           </h4>
       
       <p className="section-font">

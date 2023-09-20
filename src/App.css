@@ -23,8 +23,9 @@ nav {
   align-items: center;
   padding: 30px 25px;   
   gap: 60px; 
-     justify-content: space-between;
-  background-color: #256BE6;
+  justify-content: space-between;
+  background-color: black;
+  max-width: 100%;
 
 }
 
@@ -51,8 +52,8 @@ button {
   border-radius: 4px;
   padding-left: 1.5rem;
   padding-right: 1.5rem; 
-   background-color: #256BE6;
-   padding-top: 1rem;
+  background-color: black;
+  padding-top: 1rem;
    padding-bottom: 1rem;
   color: white;
   font-weight: 500;
@@ -64,9 +65,7 @@ button {
 
 
 .main-section {
-  margin: 70px;
-  padding-left: 200px;
- 
+ padding: 10px;
 }
 
 .section {
@@ -94,7 +93,7 @@ a {
   border-radius: 4px;
   padding: 10px 24px;
   background-color: #F0F0F0;
-  color: #256BE6;
+  color: black;
   font-weight: 500;
 }
 
@@ -131,10 +130,10 @@ a {
 
       border: 1px solid #E9EAED;
       border-bottom-width: 4px;
-      color: #256be6;
+      color: black;
       border-top-width: 0px;
       padding: 25px 24px;
-      border-bottom: 4px solid #256be6;
+      border-bottom: 4px solid black;
       border-radius: 10px;
       font-weight: 700;
 
@@ -155,10 +154,10 @@ a {
   .box4, .box5, .box6 {
       border: 1px solid #E9EAED;
       border-bottom-width: 4px;
-      color: #256be6;
+      color: black;
       border-top-width: 0px;
       padding: 25px 24px;
-      border-bottom: 4px solid #256be6;
+      border-bottom: 4px solid black;
       border-radius: 10px;
       font-weight: 700;
 
@@ -222,7 +221,7 @@ a {
       margin: 40px;
       border: 1px solid #E9EAED;
       border-radius: 4px;
-      background-color: #256BE6;
+      background-color: black;
       color: white;
       font-weight: 500;
       cursor: pointer;
@@ -254,7 +253,7 @@ a {
 
     .dot {
       aspect-ratio: 1 / 1;
-    background-color: #256be6;
+    background-color: black;
     border-radius: 100%;
     height: 8px;
     overflow: hidden;
@@ -331,7 +330,7 @@ margin-left: 253px;
 
 .point {
 aspect-ratio: 1 / 1;
-background-color: #256be6;
+background-color: black;
 border-radius: 100%;
 height: 8px;
 overflow: hidden;
@@ -343,7 +342,7 @@ margin-right: 232px;
 
 .pointer-1 {
 aspect-ratio: 1 / 1;
-background-color: #256be6;
+background-color: black;
 border-radius: 100%;
 height: 25px;
 overflow: hidden;
@@ -358,7 +357,7 @@ width: 25px;
 
 .pointer {
 aspect-ratio: 1 / 1;
-background-color: #256be6;
+background-color: black;
 border-radius: 100%;
 height: 8px;
 overflow: hidden;
@@ -380,7 +379,7 @@ font-weight: 700;
 }
 
 .footer {
-background-color: #256BE6;
+background-color: black;
 margin-bottom: 19px;
 height: min-content;
 padding: 24px;
@@ -475,7 +474,16 @@ form input[type="email"] {
   border-color: #FFFFFF;
   }
 
+  .about {
+   border-radius: 14px;
+   border: 1px solid white;
+   margin: 90px;
+  }
 
+  h6 {
+    display: flex;
+    justify-content: flex-end;
+  }
 
 
 

@@ -16,7 +16,9 @@ export default function Main() {
 <br />
 
 <button>Get Started</button>
-
+<h6>
+  <img className="about" src="/images/assets/about.png" alt="about" />
+</h6>
 </div>
 
     )
