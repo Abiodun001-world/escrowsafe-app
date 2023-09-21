@@ -1,25 +1,31 @@
-export default function Main() {
-    return (
-        <div className="main-section">
-      <div className="section">
-   Secure Transactions 
-    <br />
-    with Cryptocurrency
-   <br />
-    Anywhere in the World 
-    <br /> 
-    </div>
-      <span>We help buyers and sellers to secure transactions everyday online transactions
+import React from 'react';
+
+const Main = () => {
+  return (
+    <div className="main-section">
+      <div className="content">
+        <div className="section">
+          Secure Transactions
+          <br />
+          with Cryptocurrency
+          <br />
+          Anywhere in the World
+        </div>
+
+        <span className="span-started">
+          We help buyers and sellers secure transactions every day for online transactions
+          <br />
+          wherever you may be located around the world.
+        </span>
       <br />
-       wherever you may be located around the world. 
-</span> 
-<br />
+        <button className="button-started">Get Started</button>
+      </div>
 
-<button>Get Started</button>
-<h6>
-  <img className="about" src="/images/assets/about.png" alt="about" />
-</h6>
-</div>
+      <div className="h6-name">
+        <img className="about" src="/images/assets/about.png" alt="about" />
+      </div>
+    </div>
+  );
+};
 
-    )
-}
+export default Main;

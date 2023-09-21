@@ -198,8 +198,8 @@ We operate at an extremely high
         <div className="bottom">
  <div className="bottom-section">
   Download Our Apps </div>
-   
 </div>
+
 <div className="footer-section">
   <div className="footer-section-1">
 

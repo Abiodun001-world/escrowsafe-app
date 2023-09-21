@@ -1,19 +1,15 @@
 * {
   box-sizing: border-box;
-  margin: 0px; 
-    padding: 0px;
-
 }
 
-body {
-  background-color: #F0F0F0;
-  
+body,html {
+  background-color:  #F9F9F9;
+  margin: 0px; 
  }
  
 .container {
-  width: 1350px;
-  min-width: 100%;
-max-width: 1300px;
+  max-width: 100%;
+
 }
 
 
@@ -46,7 +42,7 @@ ul {
 }
 
 
-button {
+/*.button-started {
   margin-top: 16px;
   border: 1px solid #E9EAED;
   border-radius: 4px;
@@ -61,24 +57,10 @@ button {
   font-style: normal;
   font-size: 15px;
 
-}  
+}  */
 
 
-.main-section {
- padding: 10px;
-}
 
-.section {
-  color: #000000;
-  font-size: 48px;
-  font-weight: 700;
-  font-style: normal;
-}
-
-
-span {
-  font-size: .875rem;
-}
 
 
 a {
@@ -475,43 +457,55 @@ form input[type="email"] {
   }
 
   .about {
-   border-radius: 14px;
-   border: 1px solid white;
-   margin: 90px;
+    border-radius: 14px;
+    border: 1px solid white;
+    max-width: 100%;
   }
-
-  h6 {
+  
+  .main-section {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    padding: 100px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+  .content {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px; 
+  }
+  
+  .section {
+    color: #000000;
+    font-size: 3.9rem;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 20px;
+  }
+  
+  .span-started {
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .button-started {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+.button-started:hover {
+    background-color: blue;
+  }
+  .h6-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  
