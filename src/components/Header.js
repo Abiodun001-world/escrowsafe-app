@@ -195,12 +195,16 @@ We operate at an extremely high
 </div>
 
         </div>
-        <div className="bottom">
- <div className="bottom-section">
-  Download Our Apps </div>
-</div>
+         
+ 
 
 <div className="footer-section">
+ 
+<div className="fourth-svg">
+          <img className="fourth" src="/images/assets/fourth.svg" alt="fourth-svg" /> 
+          </div><div className="bottom-section">
+  Download Our Apps
+   </div>
   <div className="footer-section-1">
 
     <div className="point"></div>
