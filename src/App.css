@@ -518,3 +518,92 @@ form input[type="email"] {
     height: 61px;
     margin-left: 205px;
   }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding: 15px;
+    gap: 30px;
+    height: auto;
+  }
+
+  h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .flex-container, .other-cointainer {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .card-feature {
+    font-size: 24px;
+  }
+
+  .hero {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .hero-section {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .footer-section, .footer-section-1, .footer-section-2,
+  .footer-section-3, .footer-section-4, .footer-section-5 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .lists, .bottom-section {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .form-section {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .content {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .section {
+    font-size: 2.5rem;
+  }
+
+  .button-started {
+    width: 100%;
+  }
+
+  .h6-name {
+    flex-direction: column;
+  }
+
+  .footer {
+    padding-left: 0;
+  }
+
+  .subscribe-section {
+    width: auto;
+    padding: 0 15px;
+  }
+}
+
